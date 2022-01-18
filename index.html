@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="icon" href="./p__icon.svg">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.9.0/css/mdb.min.css" rel="stylesheet">
+</head>
+<body>
+    
+    
+    <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header text-center">
+          <h4 class="modal-title w-100 font-weight-bold text-capitalize">help us fix this</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body mx-1">
+            <div class="decision__content">
+                <h6 class="text-dark mb-3">please tell us why you disagree with the classification</h6>
+               
+                    <div class="custom-control custom-radio mb-3">
+                        <input type="radio" class="custom-control-input" id="highrisk" name="defaultExampleRadios">
+                        <label class="custom-control-label text-capitalize" for="highrisk">risk level too high</label>
+                    </div>
+
+                    <div class="custom-control custom-radio mb-3">
+                        <input type="radio" class="custom-control-input" id="lowrisk" name="defaultExampleRadios" checked>
+                        <label class="custom-control-label text-capitalize" for="lowrisk">risk level too low</label>
+                    </div>
+
+                    <div class="custom-control custom-radio mb-3">
+                        <input type="radio" class="custom-control-input" id="missingTopic" name="defaultExampleRadios" checked>
+                        <label class="custom-control-label text-capitalize" for="missingTopic">Missing Topic</label>
+                    </div>
+
+                    <div class="custom-control custom-radio mb-3">
+                        <input type="radio" class="custom-control-input" id="wrongTopic" name="defaultExampleRadios" checked>
+                        <label class="custom-control-label text-capitalize" for="wrongTopic">Wrong Topic</label>
+                    </div>
+
+                    <div class="custom-control custom-radio mb-3">
+                        <input type="radio" class="custom-control-input" id="other" name="defaultExampleRadios" checked>
+                        <label class="custom-control-label text-capitalize" for="other">Other</label>
+                    </div>
+                    </div>
+
+                    <h6 class="text-dark">(Optional) Provide and additional information or feedback below. </h6>
+                                            
+                        <div class="form-group green-border-focus">
+                            <label for="exampleFormControlTextarea5">Colorful border on :focus state</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea5" rows="3"></textarea>
+                        </div>
+                </div>
+                <div class="modal-footer d-flex justify-content-center">
+                <button class="btn btn-unique" id="btn__submit">Send <i class="fas fa-paper-plane-o ml-1"></i></button>
+                </div>
+            </div>
+            </div>
+        </div>
+  
+  <div class="text-center" style="display: flex;align-items: center;height: 100vh;justify-content: center;">
+    <a href="" class="btn btn-default btn-rounded mb-4" data-toggle="modal" data-target="#modalContactForm"><i class="fas fa-tools mr-2"></i>Fix This</a>
+  </div>
+    
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.9.0/js/mdb.min.js"></script>
+<script src="./js/main.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>
